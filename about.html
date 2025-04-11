@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Sofia Del Castillo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-image {
+      background-image: url('https://i.pinimg.com/736x/21/3a/85/213a85f58f74954719225d036c5f32bb.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="index.html">HOME</a>
+    </div>
+    <div class="mobile-menu-item active" onclick="toggleMenu();">
+      <a href="about.html">ABOUT</a>
+    </div>
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="skills.html">SKILLS</a>
+    </div>
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- About Slide -->
+  <div class="slide" id="about-slide">
+    <div class="slide-content">
+      <div class="header">
+        <div class="logo">
+          <img src="https://i.pinimg.com/736x/7e/6d/d9/7e6dd98529ff2aea45901032afefae17.jpg" alt="Sofia's Logo">
+        </div>
+        <div class="nav">
+          <div class="nav-item">
+            <a href="index.html">HOME</a>
+          </div>
+          <div class="nav-item active">
+            <a href="about.html">ABOUT</a>
+          </div>
+          <div class="nav-item">
+            <a href="skills.html">SKILLS</a>
+          </div>
+          <div class="nav-item">
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="about-image"></div>
+        <div class="about-text">
+          <h2>ABOUT ME</h2>
+          <h3>Sofia Mikaela T. Del Castillo</h3>
+          <p>I'm so glad you're here. I'm an aspiring UI/UX designer and beginner programmer, currently exploring the world of digital design and front-end development. This space is where I share my learning journey — from early design ideas to hands-on coding projects.</p>
+          <p>This portfolio is a snapshot of my journey so far — from early interface concepts and usability explorations to simple interactive projects built as I sharpen my coding skills. Each project reflects a step forward in learning how to design with intention and develop with clarity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">All rights reserved 2025</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

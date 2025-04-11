@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sofia Del Castillo - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .profile-image {
+      background-image: url('https://i.pinimg.com/736x/dd/ae/4e/ddae4e7a1b8e9b066832f6c029150352.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-item active" onclick="toggleMenu();">
+      <a href="index.html">HOME</a>
+    </div>
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="about.html">ABOUT</a>
+    </div>
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="skills.html">SKILLS</a>
+    </div>
+    <div class="mobile-menu-item" onclick="toggleMenu();">
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Home Slide -->
+  <div class="slide" id="home-slide">
+    <div class="slide-content">
+      <div class="header">
+        <div class="logo">
+          <img src="https://i.pinimg.com/736x/7e/6d/d9/7e6dd98529ff2aea45901032afefae17.jpg" alt="Sofia's Logo">
+        </div>
+        <div class="nav">
+          <div class="nav-item active">
+            <a href="index.html">HOME</a>
+          </div>
+          <div class="nav-item">
+            <a href="about.html">ABOUT</a>
+          </div>
+          <div class="nav-item">
+            <a href="skills.html">SKILLS</a>
+          </div>
+          <div class="nav-item">
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="home-content">
+        <div class="intro">
+          <h1>Hi there! It's me</h1>
+          <h2>Sofia Del Castillo</h2>
+          <p>Hello! I'm a beginner UI/UX designer and aspiring programmer with a passion for creating clean, user-friendly digital experiences.</p>
+        </div>
+        <div class="profile-image"></div>
+      </div>
+    </div>
+    <div class="footer">All rights reserved 2025</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
